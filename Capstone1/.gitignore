@@ -1,0 +1,41 @@
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environments
+venv/
+.env/
+.envrc
+.venv/
+env/
+ENV/
+
+# Environment files / secrets
+*.env
+*.env.local
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
+tickets.log
+
+# pytest / coverage (if you add tests later)
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
