@@ -142,11 +142,11 @@ When you first open the app, you will see:
     - Image: Google Gemini – gemini-2.5-flash-image
   - Empty blocks for **Transcript** and **Image prompt**
 
-Screenshot example: **`screenshots/01_home.png`**
+Screenshot example: **`Home screen`**
 
-```markdown
+
 ![Home screen](screenshots/01_home.png)
-```
+
 
 ### 2. Record your voice
 
@@ -187,11 +187,11 @@ What you see:
   - Under **Transcript**: the text recognized from your audio (e.g. “Designer working on PC in the office. Realistic style.”)
   - Under **Image prompt**: the detailed prompt created by Bytez (GPT-4o-mini).
 
-Screenshot example: **`screenshots/02_generated.png`**
+Screenshot example: **`Generated image`**
 
-```markdown
+
 ![Generated image](screenshots/02_generated.png)
-```
+
 
 ### 4. Console logs
 
@@ -205,11 +205,11 @@ In the terminal / console where you ran `streamlit run main.py`, you will see lo
 
 This is useful both for debugging and for demonstrating that the app logs every important step.
 
-Screenshot example: **`screenshots/03_console.png`**
+Screenshot example: **Console logs**
 
-```markdown
+
 ![Console logs](screenshots/03_console.png)
-```
+
 
 ---
 
