@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# LlamaIndex Storage (rebuilt on deployment)
+storage/
+ragdocs/
+# We might want to keep ragdocs in git if they are the source of truth,
+# but usually large datasets are excluded.
+# User instructions said "ragdocs/" contains PDFs.
+# If they want to deploy to HF, they need the PDFs or the Index.
+# Given "create vector database only one time", maybe we SHOULD keep ragdocs in git so HF can build it?
+# Or maybe we should keep storage?
+# "create vector database only one time for all documents."
+# If I commit 'storage', HF won't rebuild it.
+# If I commit 'ragdocs' and ignore 'storage', HF will build it once on startup (cached resource).
+# I will ignore storage and keep ragdocs (assuming it's small enough for git, usually <100MB).
+
+# Local dev
+.vscode/
+.idea/
+.gemini/
